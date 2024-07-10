@@ -2,14 +2,6 @@ import axios from "axios";
 
 const API_KEY = import.meta.env.VITE_RAPID_API_KEY
 
-console.log('VITE_RAPID_API_KEY:', API_KEY); 
-
-
-if (!API_KEY) {
-  console.error("API key is missing. Please check your environment variables.");
-}
- 
-
 const URL = "https://youtube-v31.p.rapidapi.com";
 const options = {
     url: URL,
