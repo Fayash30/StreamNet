@@ -4,11 +4,14 @@ import { Link } from 'react-router-dom';
 import { demoProfilePicture }  from "../utils/constants";
 
 
-const ChannelCard = ({ channelDetail }) => (
+const ChannelCard = ({ channelDetail , marginTop }) => {
 
+  console.log("channelDetail:",channelDetail);
+
+  return(
   <Box sx = {{ boxShadow : 'none', borderRadius:'20px',
     display:'flex',justifyContent:'center',alignItems:'center',width:{xs:'358px',md:'320px'},
-    height:'326px',margin:'auto'
+    height:'326px',margin:'auto',marginTop
   }} >
     <Link to = { `/channel/${channelDetail?.id?.channelId}`}>
       <CardContent sx= {{ display:'flex' , flexDirection:'column' , justifyContent: 'center' , textAlign:'center',color:"#fff"}}>
@@ -21,9 +24,9 @@ const ChannelCard = ({ channelDetail }) => (
           {channelDetail?.snippet?.title}
           <CheckCircle sx={{ fontSize: 14, color: 'gray', ml: "5px" }} />
         </Typography>
-        {channelDetail?.statitics?.subscriberCount && (
+        {channelDetail?.statistics?.subscriberCount && (
           <Typography>
-            {parseInt(channelDetail?.statitics?.subscriberCount).toLocaleString()} Subscribers
+            {parseInt(channelDetail?.statistics?.subscriberCount).toLocaleString()} Subscribers
           </Typography>
         )}
 
@@ -31,6 +34,7 @@ const ChannelCard = ({ channelDetail }) => (
     
     </Link>
   </Box>
-)
+  )
+}
 
 export default ChannelCard
