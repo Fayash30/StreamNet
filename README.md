@@ -28,13 +28,13 @@ Check out the live demo: [StreamNet Live Demo](https://streamNet.netlify.app)
 ### Video Player
 ![Video Player Screenshot](./Screenshots/VideoPlayer.png)
 
+### Channel View
+![Channel Viewer](./Screenshots/channel.png)
+
 ### Search Results
 ![Search Results Screenshot](./Screenshots/Searchresults.png)
 
 ### Responsive Layouts
-
-#### Iphone 14 pro max
-![Iphone](./Screenshots/Iphone.png)
 
 #### Ipad Mini
 ![Ipad](./Screenshots/Ipad.png)
@@ -42,6 +42,8 @@ Check out the live demo: [StreamNet Live Demo](https://streamNet.netlify.app)
 #### Samsung Galaxy S20 Ultra
 ![Samsung](./Screenshots/Samsung.png)
 
+#### Mobile Video Player
+![Mobile_player](./Screenshots/mob-vid.png)
 
 ## Installation
 
