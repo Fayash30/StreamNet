@@ -1,6 +1,6 @@
 # StreamNet
 
-StreamNet is a web application built with React + Vite. It utilizes RapidAPI's YouTube v3 API for video rendering. The app is designed to allow users to view videos, live streams, and search for videos seamlessly. It is responsive, adapting its layout based on the device screen size.
+StreamNet is a web application built with React + Vite and enhanced with Material-UI (MUI). It utilizes RapidAPI's YouTube v3 API for video rendering. The app is designed to allow users to view videos, live streams, and search for videos seamlessly. It is responsive, adapting its layout based on the device screen size.
 
 ![StreamNet Screenshot](./Screenshots/Streamnet.png)
 
@@ -18,6 +18,7 @@ Check out the live demo: [StreamNet Live Demo](https://streamNet.netlify.app)
 
 - React + Vite
 - RapidAPI YouTube v3 API
+- Material-UI (MUI)
 - Netlify for Deployment
 
 ## Screenshots
